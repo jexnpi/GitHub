@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es"> <!------idioma a trabajar -->
+<head>
+    <meta charset="UTF-8"> <!-- detecta cualquier idioma y caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- optimizar sitio web en celulares -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>BTS</title> <!-- titulo de la pagina -->
+</head>
+<body> <!-- contenido de pagina -->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="index.html#producto">Producto</a></li> <!-- Al apretarlo te scrollea para esa seccion -->
+                <li> <a href="HTML/Paginas/informacion.html">Informacion</a></li>
+                <li> <a href="HTML/Paginas/contacto.html">Contacto</a></li>
+                <li> <a href="https://www.youtube.com/@BTS" target="_blank">Youtube</a></li> <!-- target blank abre en otra pestaña -->
+               <!-- <a href="nombre de carpeta/nombre archivo.html">Nombre del html</a> -->
+                <!-- <a href="link de la pagina que queremos llevar" target="_blank">Ingresar</a> -->
+            </ul>
+        </nav>
+    </header> 
+    
+    <main class="fondo_imagen">
+        <h1>FLEXBOX</h1>
+        <section class="padre">
+            <div class="hijo">1</div>
+            <div class="hijo">2</div>
+            <div class="hijo">3</div>
+            <div class="hijo">4</div>
+        </section>
+        
+        <h1>GRID</h1>
+        <section class="padrea">
+            <article class="hijoa" >
+                <p>Grid Item 1</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 2</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 3</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 4</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 5</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 6</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 7</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 8</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 9</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 10</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 11</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 12</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 13</p>
+            </article>
+            <article class="hijoa" >
+                <p>Grid Item 14</p>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+                <div>
+                    <!--!Mala practica!-->
+                    <!--  style="color:violet ;" -->
+                    <h1>BTS, los reyes de la industria</h1>
+                </div>
+                <div class="fondo">
+                    <img src="/imagenes/20210628_120841.jpg" alt="BTS, un grupo de amigos">
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>MIEMBROS</h2>
+                <article class="producto">
+                <article>
+                    <img src="/imagenes/20210627_123003.jpg" alt="#">
+                    <h2>Kim Namjoon</h2>
+                    <p>Lider de BTS, rapero <span class="prueba"></span> </p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_123000.jpg" alt="#">
+                    <h2>Kim Seokjin</h2>
+                    <p>El mayor de la banda, vocalista</p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_123004.jpg" alt="#">
+                    <h2>Min Yoongi</h2>
+                    <p>Compositor y rapero principal</p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_122934.jpg" alt="#">
+                    <h2>Jung Hoseok</h2>
+                    <p>Rapero y bailarin principal</p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_122958.jpg" alt="#">
+                    <h2>Park Jimin</h2>
+                    <p>Vocalista principal y bailarin</p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_122930.jpg" alt="#">
+                    <h2>Kim Taehyung</h2>
+                    <p>Vocalista y bailarin</p>
+                </article>
+                <article>
+                    <img src="/imagenes/20210627_122932.jpg" alt="#">
+                    <h2>Jeon Jungkook</h2>
+                    <p>El mas joven de la banda, vocalista y bailarin</p>
+                </article>
+            </article>
+        </section>
+        <section>
+            <div> 
+                <h2>Conoce mas sobre ellos!</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gdZLi9oWNZg?si=AC7qpfcOIY9s78N6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section> <!-- contenedor padre -->
+            <div> <!-- contenedor hijo de section padre de p -->
+                <!-- <img src="imagenes/producto.jpg" alt="descripcion de la imagen" width="100%" -->
+                <p> Parrafo de la imagen </p> <!-- contenedor hijo de div -->
+            </div>
+            </section>
+        <section>
+            <div> 
+                <h2>Contactanos!</h2>
+                <p> hola esto es otra prueba </p>
+            </div>
+        </section>
+
+       
+        <section>
+            <forms action="" method="post">
+            <div> 
+                <label for="nombre">Ingrese nombre</label>
+                <input type="text" name="nombre">
+            </div>
+            <div> 
+                <label for="nombre">Ingrese numero</label>
+                <input type="number" name="nombre">
+            </div>
+            <div> 
+                <label for="nombre">Ingrese correos</label>
+                <input type="email" name="nombre">
+            </div>
+            <div> 
+                <label for="nombre">Ingrese contraseña</label>
+                <input type="password" name="nombre">
+            </div>
+            <div> 
+                <input type="checkbox" name="nombre">
+                <label for="nombre">opcion1</label>  
+            </div>
+            <div> 
+                <input type="checkbox" name="nombre">
+                <label for="nombre">opcion2</label>
+            </div>
+            <div> 
+                <input type="checkbox" name="nombre">
+                <label for="nombre">opcion3</label>
+            </div>
+            <div> 
+                <label for="nombre">opciones</label>
+                <input type="radio" name="nombre">
+                <input type="radio" name="nombre">
+                <input type="radio" name="nombre">
+                <input type="radio" name="nombre">
+            </div>
+            
+            <button type="submit">Enviar</button>
+            <button type="menu">Menu</button>
+            <button type="reset">Borrar</button>
+            <button type="disabled">Nulo</button>
+            </forms>
+        </section>
+       
+    <h2>Formato de letras</h2>
+        <section> <!-- sirve para separar secciones -->
+            <article> <!-- sirve para articulos -->
+                <strong> <!-- pone letra en negrita -->
+            es esto en negrita? </strong>
+        </article> 
+        <article> 
+            <i> <!-- pone letra en italica -->
+            si está en negrita y ésta en italica</i>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <h3>Contacto</h3>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div>
+            <h3>Información</h3>
+        </div>
+        <div>
+            <h3>Ubicación</h3>
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+    </footer> <!--pie de pagina -->
+</body>
+</html>
+
+
+    <!-- Modificando cada clase, una vez tengamos que presentar el trabajo se agarra info de aca -->
